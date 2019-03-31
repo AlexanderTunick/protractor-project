@@ -1,0 +1,26 @@
+{
+  "name": "protractor-tests-fresh",
+  "version": "1.0.0",
+  "description": "new refreshed project",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "webdriver-manager update && tsc",
+    "test": "tsc && protractor ./config/protractor.conf.js",
+    "tsc": "tsc"
+  },
+  "author": "Olexander Tunick",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasminewd2": "^2.0.6",
+    "jasmine-console-reporter": "^3.1.0",
+    "jasmine-protractor-matchers": "^2.0.0",
+    "jasmine-reporters": "^2.3.2",
+    "protractor": "^5.4.2",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "@types/jasmine": "^3.3.12",
+    "@types/node": "^11.12.1",
+    "dotenv": "^7.0.0"
+  }
+}

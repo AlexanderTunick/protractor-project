@@ -1,0 +1,16 @@
+# installed npm dependencies
+node_modules/
+# compiled js and debug files
+*.js
+*.js.map
+# test run results
+test_results/
+# JetBrains
+.idea
+# windows thumbnail cache
+Thumbs.db
+# Mac DS_Store Files
+.DS_Store
+.env
+page_objects/dashboard.page.ts
+page_objects/login.page.ts
